@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_capture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        tools:src="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_dog"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="dog" />
+
+        <Button
+            android:id="@+id/btn_cat"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:text="cat" />
+
+        <Button
+            android:id="@+id/btn_giraffe"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="giraffe" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_that_dog"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="That dog" />
+
+        <Button
+            android:id="@+id/btn_that_cat"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:text="that cat" />
+
+        <Button
+            android:id="@+id/btn_that_giraffe"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="that giraffe" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Send"
+        android:id="@+id/btn_send"/>
+
+  </LinearLayout>
